@@ -3,7 +3,7 @@ run:
 	@ echo -e "\t- nginx;"
 	@ echo -e "\t- flask;"
 	@ echo -e "\t- scripts;\n"
-	docker-compose -d u
+	docker-compose up -d
 	@ echo -e "Estrutura iniciada!"
 	@ echo -e "\n\n\nConfigurando os hosts no conteiner scripts:\n"
 	docker exec scripts bash addhosts.sh
