@@ -1,0 +1,38 @@
+version: '3'
+
+services:
+  proxy:
+    image: desafio-nginx
+    build:
+      context: .
+    container_name: nginx
+    ports:
+      - "30000:80"
+    networks:
+      - desafio-nginx-network
+  web:
+    image: flask-app
+    build:
+      context: /app/
+    container_name: flask
+    ports:
+      - "8888:5000"
+    networks:
+      desafio-nginx-network:
+        aliases:
+          - flask-app-network
+  srvscripts:
+    image: srvscripts
+    build:
+      context: /scripts/
+    container_name: scripts
+    ports:
+      - "30001:80"
+    networks:
+      desafio-nginx-network:
+        aliases:
+          - srvscripts-network
+
+networks: 
+  desafio-nginx-network:
+    driver: bridge
