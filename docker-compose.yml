@@ -13,7 +13,7 @@ services:
   web:
     image: flask-app
     build:
-      context: /app/
+      context: app/
     container_name: flask
     ports:
       - "8888:5000"
@@ -24,7 +24,7 @@ services:
   srvscripts:
     image: srvscripts
     build:
-      context: /scripts/
+      context: scripts/
     container_name: scripts
     ports:
       - "30001:80"

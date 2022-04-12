@@ -9,6 +9,7 @@ if test -a desafio.tar; then
             string=""
         fi
     done;
+    echo -e ""
     rm -rf desafio
 else
 echo -e "\nO arquivo desafio.tar não foi encontrado!\n"

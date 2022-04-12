@@ -5,3 +5,4 @@ echo -e "$ip_nginx desafio2" >> /etc/hosts
 echo -e "$ip_nginx app" >> /etc/hosts
 echo -e "Arquivo hosts configurado com sucesso:"
 cat /etc/hosts
+echo -e ""
