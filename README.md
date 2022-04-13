@@ -9,10 +9,10 @@ Aplicação web em python com o framework Flask que retorna __"wello World"__;
 * __scripts__:
 Possui o serviço web, mas sua função é a execução dos srcipts do desafio.
 
+As instruções para realização o desafio estarão contidas nos arquivos __README1.txt__, __README2.txt__ e __README3.txt__, localizados na raiz deste projeto.
+
 # Pré-requisitos
 Para que a estrutura rode localmente é necessário que o daemon do docker esteja instalado e tenha acesso a internet, ao repositório do docker-hub. A instalação para seu sistema pode ser encontrada no seguinte link: https://docs.docker.com/get-docker/.
-
-As instruções para realização o desafio estarão contidas nos arquivos __README1.txt__, __README2.txt__ e __README3.txt__, localizados na raiz deste projeto.
 
 # Execução da Estrutura e Testes Relacionados ao Desafio
 
