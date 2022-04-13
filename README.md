@@ -16,7 +16,7 @@ Para que a estrutura rode localmente é necessário que o daemon do docker estej
 
 # Execução da Estrutura e Testes Relacionados ao Desafio
 
-## - Baixe o projeto para algum diretório ou clone o reposótório
+## - Baixe o projeto para algum diretório ou clone o reposótório:
 ### Clone with HTTPS
 ```
 git clone https://github.com/leodbrito/desafio-devops.git
@@ -27,7 +27,7 @@ git clone https://github.com/leodbrito/desafio-devops.git
 git clone git@github.com:leodbrito/desafio-devops.git
 ```
 
-## - Para criar o ambiente e iniciar sua estrutura, no diretório raiz do projeto, apenas execute o seguinte comando:
+## - Para criar o ambiente e iniciar sua estrutura, entre no diretório raiz do projeto e execute o seguinte comando:
 ```
 sudo make run
 ```
