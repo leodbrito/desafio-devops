@@ -27,10 +27,10 @@ git clone git@github.com:leodbrito/desafio-devops.git
 
 ## - Para criar o ambiente e iniciar sua estrutura, no diretório raiz do projeto, apenas execute o seguinte comando:
 ```
-make run
+sudo make run
 ```
 
 ## - Para a limpeza do ambiente docker basta executar o seguinte comando:
 ```
-make clean
+sudo make clean
 ```
