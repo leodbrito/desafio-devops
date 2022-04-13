@@ -10,11 +10,11 @@ Aplicação web em python com o framework Flask que retorna **"wello World"**;
 Possui o serviço web, mas sua função é a execução dos srcipts do desafio.
 
 # Pré-requisitos
-Para que a estrutura rode localmente é necessário que o daemon do docker esteja instalado e tenha acesso a internet, ao repositório do docker-hub. A instalação para seu sistema pode ser encontrada no seguinte link: https://docs.docker.com/get-docker/
+Para que a estrutura rode localmente é necessário que o daemon do docker esteja instalado e tenha acesso a internet, ao repositório do docker-hub. A instalação para seu sistema pode ser encontrada no seguinte link: https://docs.docker.com/get-docker/.
 
 # Execução da Estrutura e Testes Relacionados ao Desafio
 
-## Baixe o projeto para algum diretório ou clone o reposótório
+## - Baixe o projeto para algum diretório ou clone o reposótório
 ### Clone with HTTPS
 ```
 git clone https://github.com/leodbrito/desafio-devops.git
@@ -25,12 +25,12 @@ git clone https://github.com/leodbrito/desafio-devops.git
 git clone git@github.com:leodbrito/desafio-devops.git
 ```
 
-## No diretório raiz do projeto apenas execute o seguinte comando:
+## - No diretório raiz do projeto apenas execute o seguinte comando:
 ```
 make run
 ```
 
-## Para a limpeza do ambiente docker basta executar o seguinte comando:
+## - Para a limpeza do ambiente docker basta executar o seguinte comando:
 ```
-make dockerclean
+make clean
 ```

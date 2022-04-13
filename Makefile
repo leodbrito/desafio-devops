@@ -21,6 +21,6 @@ run:
 	docker exec scripts curl -sv http://app
 	@ echo -e "\n\n\nTODOS OS TESTES DO DESAFIO FORAM EXECUTADOS, SE DESEJAR LIMPAR O AMBIENTE DOCKER, INCLUSIVE SUAS IMAGENS, EXECUTE O COMANDO ABAIXO:\Nmake dockerclean\n"
 
-dockerclean:
+clean:
 	@ echo -e "\n\nLimpando o ambiente docker, removendo os containers e suas imagens:\n"
 	docker-compose down --remove-orphans --rmi "all" -v
