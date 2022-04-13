@@ -25,7 +25,7 @@ git clone https://github.com/leodbrito/desafio-devops.git
 git clone git@github.com:leodbrito/desafio-devops.git
 ```
 
-## - No diretório raiz do projeto apenas execute o seguinte comando:
+## - Para criar o ambiente e iniciar sua estrutura, no diretório raiz do projeto, apenas execute o seguinte comando:
 ```
 make run
 ```
