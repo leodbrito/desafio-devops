@@ -30,7 +30,7 @@ git clone git@github.com:leodbrito/desafio-devops.git
 sudo make run
 ```
 
-## - Para a limpeza do ambiente docker basta executar o seguinte comando:
+## - Para a limpeza do ambiente docker, incluindo suas imagens, basta executar o seguinte comando:
 ```
 sudo make clean
 ```
