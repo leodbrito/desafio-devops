@@ -1,5 +1,5 @@
 FROM nginx:alpine
 
-COPY nginx /usr/share/nginx/html
+COPY site /usr/share/nginx/html
 
 COPY desafio.conf /etc/nginx/conf.d

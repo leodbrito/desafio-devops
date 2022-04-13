@@ -4,7 +4,7 @@ services:
   proxy:
     image: desafio-nginx
     build:
-      context: .
+      context: nginx/
     container_name: nginx
     ports:
       - "30000:80"
