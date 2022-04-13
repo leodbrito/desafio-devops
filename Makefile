@@ -19,7 +19,7 @@ run:
 	docker exec scripts curl -s -H "Host: 'localhost'" http://flask:5000
 	@ echo "\n\n\nChamando o nginx, através de GET para obter o retorno Hello World da aplicação python:\n"
 	docker exec scripts curl -sv http://app
-	@ echo "\n\n\nTODOS OS TESTES DO DESAFIO FORAM EXECUTADOS, SE DESEJAR LIMPAR O AMBIENTE DOCKER, INCLUSIVE SUAS IMAGENS, EXECUTE O COMANDO ABAIXO:\Nmake dockerclean\n"
+	@ echo "\n\n\nTODOS OS TESTES DO DESAFIO FORAM EXECUTADOS, SE DESEJAR LIMPAR O AMBIENTE DOCKER, INCLUSIVE SUAS IMAGENS, EXECUTE O COMANDO ABAIXO:\nmake dockerclean\n"
 
 clean:
 	@ echo "\n\nLimpando o ambiente docker, removendo os containers e suas imagens:\n"
