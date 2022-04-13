@@ -10,7 +10,7 @@ Aplicação web em python com o framework Flask que retorna **"wello World"**;
 Possui o serviço web, mas sua função é a execução dos srcipts do desafio.
 
 # Pré-requisitos
-Para que a estrutura rode localmente é necessário que o daemon do docker esteja instalado. A insta;lação para seu seistema pode ser encontrada no seguinte link: https://docs.docker.com/get-docker/
+Para que a estrutura rode localmente é necessário que o daemon do docker esteja instalado e tenha acesso a internet, ao repositório do docker-hub. A instalação para seu seistema pode ser encontrada no seguinte link: https://docs.docker.com/get-docker/
 
 # Execução da Estrutura e Testes Relacionados ao Desafio
 
