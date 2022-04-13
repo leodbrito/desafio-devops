@@ -1,10 +1,10 @@
 # Desafio Devops
-Nesse desafio será executado uma estrutura docker com 3 containers chamados: **nginx**, **flask** e **scripts**. Como os próprios nomes já sugerem cada um fornecerá o seguinte serviço:
+Nesse desafio será executado uma estrutura docker com 3 containers chamados: __nginx__, __flask__ e __scripts__. Como os próprios nomes já sugerem cada um fornecerá o seguinte serviço:
 * __nginx__:
-Servidor web/proxy que terá uma simples página web estática com o arquivo desafio.tar e servirá de proxy para a app em python servida pelo container **flask**;
+Servidor web/proxy que terá uma simples página web estática com um link para o arquivo desafio.tar e servirá de proxy para a app em python servida pelo container __flask__;
 
 * __flask__:
-Aplicação web em python com o framework Flask que retorna **"wello World"**;
+Aplicação web em python com o framework Flask que retorna __"wello World"__;
 
 * __scripts__:
 Possui o serviço web, mas sua função é a execução dos srcipts do desafio.
