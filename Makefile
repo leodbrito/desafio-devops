@@ -16,7 +16,7 @@ run:
 	@ echo "\n\n\nChamando a rota /desafio para o server name desafio2 do servidor nginx:\n"
 	docker exec scripts curl -s http://desafio2/desafio
 	@ echo "\n\n\nObtendo o resultado 'Hello World' de uma aplicação python:\n"
-	docker exec scripts curl -s -H "Host: 'localhost'" http://flask:5000
+	docker exec scripts curl -s http://flask:5000
 	@ echo "\n\n\nChamando o nginx, através de GET para obter o retorno Hello World da aplicação python:\n"
 	docker exec scripts curl -sv http://app
 	@ echo "\n\n\nTODOS OS TESTES DO DESAFIO FORAM EXECUTADOS, SE DESEJAR LIMPAR O AMBIENTE DOCKER, INCLUSIVE SUAS IMAGENS, EXECUTE O COMANDO ABAIXO:\nmake dockerclean\n"
